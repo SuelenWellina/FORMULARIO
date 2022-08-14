@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+    <head>
+        <meta charset="UTF-8">
+             <title>Cadastre-se</title>
+			 <link rel="stylesheet" type="text/css" href="layot.css">
+    </head>
+   
+    <body > 
+
+       <div class="Banner">
+		   <br>
+			<h1>Cadastre-se</h1>
+       </div> 
+	   <br>
+	   <div class="Conteudo">
+		   <form  method="POST" enctype="multipart/form-data"  action="http://localhost/Projeto/processa.Formulario.php" >
+			  	<fieldset>
+				
+						<legend class="cxconteudo">
+							<h1>Login</h1>
+						</legend>
+							
+							
+							Nome: <input size="20" type="text" name="nome"/>
+							<p>
+							Senha:<input size="20" type="password" name="senha"/> 
+							<p>
+							Sexo: 
+									<input type="radio" name="Sexo"  value="Feminino"/>
+										<label >Feminino</label>
+									<input type="radio" name="Sexo"  value="Masculino"/>
+										<label >Masculino</label>
+							<p>
+									
+							Linguagem favorita:
+									<input type="checkbox" name="Linguagem_op"  value="PHP"/>
+									<label >PHP</label>
+									<input type="checkbox" name="Linguagem_op"  value="JAVA"/>
+									<label >JAVA</label>
+									<p>
+							Arquivo:<input type="file" name="arq"/>
+							
+				</fieldset>	
+				<button class=bot1 type="submit" name="enviar" >Enviar</button>	
+				<button type="reset" name="apagar">Apagar</button>
+			</form>			
+				
+				
+		
+		</div>
+		<br>     
+		<div class="rodape"><br>
+			Aplicação Web| Suelen Wellina Oliveira| UniProjeção-2022 
+		</div> 
+                
+    </body> 
+
+</html>

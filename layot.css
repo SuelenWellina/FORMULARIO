@@ -1,0 +1,82 @@
+.Banner{
+				
+	background:rgb(82, 82, 82);
+	color: rgb(255, 255, 255);
+	height:100px;
+	position: relative;
+	text-align: center;
+	text-size-adjust:60px;	
+		
+}
+.Banner h1 {
+	
+	color: rgb(255, 255, 255);
+	position: relative;
+	text-size-adjust:inherit;			
+}
+.Conteudo{
+	
+	background:rgb(126, 126, 126);
+	color: rgb(255, 255, 255);
+	height: 1260px;
+	position:relative;
+	margin-left: 220px;
+	width:800px;
+}
+.rodape{
+	
+	background:rgb(82, 82, 82);
+	color: rgb(255, 255, 255);
+	height:90px;
+	text-align: center;
+	
+}
+.caixa{
+	
+	align-items: justify;				
+}
+.cxconteudo{
+	
+	align-items: justify;				
+}
+IMG{
+	height:800px;
+	position:center;
+	margin-left: 120px;
+	width:500px;
+}
+button{
+	position: absolute;
+	margin-left: 10%;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+button.bot1{
+	position: absolute;
+	margin-left: 20%;
+	top: 25%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	
+}
